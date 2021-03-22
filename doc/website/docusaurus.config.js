@@ -53,33 +53,29 @@ module.exports = {
                     title: 'Social',
                     items: [
                         {
-                            label: 'Blog',
-                            href: 'https://welovedevs.com/inspiration'
-                        },
-                        {
                             label: 'GitHub',
-                            href: 'https://github.com/facebook/welovedevs'
+                            href: 'https://github.com/SirHexxus'
                         },
                         {
                             label: 'Twitter',
-                            href: 'https://twitter.com/welovedevs'
+                            href: 'https://twitter.com/jmswebdesigns'
                         }
                     ]
                 }
             ],
-            copyright: `Copyright © ${new Date().getFullYear()} WeLoveDevs.com. Built with Docusaurus.`
-        },
-        googleAnalytics: {
-            trackingID: 'UA-71913303-3'
+            copyright: `Copyright © ${new Date().getFullYear()} James Stacy.`
         }
+        // googleAnalytics: {
+        //     trackingID: 'UA-71913303-3'
+        // }
     },
     presets: [
         [
             '@docusaurus/preset-classic',
             {
                 docs: {
-                    sidebarPath: require.resolve('./sidebars.js'),
-                    editUrl: 'https://github.com/welovedevs/docs/website/'
+                    sidebarPath: require.resolve('./sidebars.js')
+                    // editUrl: 'https://github.com/welovedevs/docs/website/'
                 },
                 theme: {
                     customCss: require.resolve('./src/css/custom.css')

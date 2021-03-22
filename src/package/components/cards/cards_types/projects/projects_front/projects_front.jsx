@@ -1,6 +1,5 @@
 import React, { memo, useCallback, useMemo } from 'react';
 
-import { Twemoji } from 'react-emoji-render';
 import { FormattedMessage } from 'react-intl';
 import { createUseStyles } from 'react-jss';
 
@@ -82,13 +81,7 @@ const Content = ({ hasProject, projectTitle, handleAddButtonClick, classes }) =>
     if (hasProject) {
         return (
             <Typography variant="h2" component="h2" classes={{ container: classes.text }}>
-                <FormattedMessage
-                    id="Projects.front.title"
-                    defaultMessage="My <emoji>♥️</emoji> project : "
-                    values={{
-                        emoji: (value) => <Twemoji svg text={value} />
-                    }}
-                />
+                <FormattedMessage id="Projects.front.title" defaultMessage="My most recent project: " />
                 {projectTitle}
             </Typography>
         );
@@ -105,7 +98,7 @@ const Content = ({ hasProject, projectTitle, handleAddButtonClick, classes }) =>
                 }}
                 handleAddButtonClick={handleAddButtonClick}
             >
-                <FormattedMessage id="Projects.noProject.buttonLabel" defaultMessage="Ajouter un projet" />
+                <FormattedMessage id="Projects.noProject.buttonLabel" defaultMessage="Add a project" />
             </NoDataButton>
         </div>
     );

@@ -3,7 +3,7 @@ import { createContext } from 'react';
 export const DeveloperProfileContext = createContext({});
 export const StoreContext = createContext({});
 type StaticDataContextType = {
-    apiKeys: { giphy: string; unsplash: string };
+    apiKeys: { giphy: 'EdRnGMBc5SOXQAuh8UrUnIcfaG8A7bBI'; unsplash: string };
     endpoints: {
         devIcons: string;
         unsplashProxy: string;

@@ -15,21 +15,9 @@
             "region": "California"
         },
         "profiles": [
-            {
-                "network": "Twitter",
-                "username": "@jmswebdesigns",
-                "url": "https://twitter.com/jmswebdesigns"
-            },
-            {
-                "network": "LinkedIn",
-                "username": "James Stacy",
-                "url": "https://www.linkedin.com/in/james-m-stacy"
-            },
-            {
-                "network": "Github",
-                "username": "SirHexxus",
-                "url": "https://github.com/SirHexxus"
-            }
+            { "network": "Twitter", "username": "@jmswebdesigns", "url": "https://twitter.com/jmswebdesigns" },
+            { "network": "LinkedIn", "username": "James Stacy", "url": "https://www.linkedin.com/in/james-m-stacy" },
+            { "network": "Github", "username": "SirHexxus", "url": "https://github.com/SirHexxus" }
         ]
     },
     "work": [
@@ -127,35 +115,72 @@
         {
             "name": "React",
             "level": "Master",
-            "value": 100,
-            "keywords": ["HTML", "CSS", "Javascript"]
+            "value": 75,
+            "keywords": ["HTML", "CSS", "Javascript"],
+            "index": 0,
+            "id": "45406b61-5ebb-4b27-ab12-ffa013a980a7"
         },
+        { "name": "Javascript", "index": 1, "value": 50, "id": "40e6bc5b-32d6-4c38-bfa7-65bdaa468281" },
+        { "name": "GraphQL", "index": 2, "value": 10, "id": "b5ab658a-b145-45ee-a905-5f89ab6914d3" },
+        { "name": "Express", "index": 3, "value": 55, "id": "9bfe9305-2687-461b-9595-ad21d2be616d" },
         {
             "name": "NodeJS",
             "level": "Master",
-            "value": 40,
-            "keywords": ["HTML", "CSS", "Javascript"]
+            "value": 50,
+            "keywords": ["HTML", "CSS", "Javascript"],
+            "index": 4,
+            "id": "b40648e8-cc0d-4cf8-b021-6797e44a2ac9"
         },
+        { "name": "MongoDB", "index": 5, "value": 60, "id": "3a6315c0-e2b1-486a-b6d2-935acd1f867b" },
         {
             "name": "Firebase",
             "level": "Master",
-            "value": 60,
-            "keywords": ["HTML", "CSS", "Javascript"]
-        }
+            "value": 59,
+            "keywords": ["HTML", "CSS", "Javascript"],
+            "index": 6,
+            "id": "beba6d9e-85a8-4cdf-bd1c-75abf30f8742"
+        },
+        { "name": "Mysql", "index": 7, "value": 50, "id": "39427a36-4b4c-48ba-b2a2-284dbb486480" },
+        { "name": "PostgreSQL", "index": 8, "value": 5, "id": "0825abdb-a52c-4850-8fb5-a6bb196bb604" }
     ],
     "languages": [{ "language": "English", "value": 100, "fluency": "Native speaker" }],
-    "interests": [],
+    "interests": [
+        {
+            "index": 0,
+            "id": "51269f5c-399f-46e3-86fc-a85c88384807",
+            "gifUrl": "https://media.giphy.com/media/3o8dpbfzkgiDrCwbxm/giphy.gif",
+            "name": "Music"
+        },
+        {
+            "index": 1,
+            "id": "7be5d648-a29b-48bf-9d2b-a707ac0cc775",
+            "gifUrl": "https://media.giphy.com/media/3oriNPdeu2W1aelciY/giphy.gif",
+            "name": "Tabletop Role Playing Games"
+        },
+        {
+            "index": 2,
+            "id": "2ccdfd86-b3c7-4d03-b1d2-460cbacd71ee",
+            "gifUrl": "https://media.giphy.com/media/3orifeH5mUJUg3EiSQ/giphy.gif",
+            "name": "Medieval Reenactment"
+        },
+        {
+            "index": 3,
+            "id": "29dddeee-c52f-4233-b1d1-254249850602",
+            "gifUrl": "https://media.giphy.com/media/j9Y9vsklHWtjgHOtLk/giphy.gif",
+            "name": "Useless Trivia"
+        }
+    ],
     "references": [{ "name": "Jane Doe", "reference": "Reference..." }],
     "projects": [
         {
-            "index": 2,
-            "date": { "month": 1, "year": 2020 },
-            "description": "Node.js | HTML/CSS | Firebase | MongoDB\nWon the February 2020 IESD Hackday\nThis slack bot is a fun/silly way to reward or punish team members! This bot is aimed at building/destroying relationships within teams.",
-            "id": "af4181b1-8955-47fb-8dd9-17c6974335d3",
-            "images": [{ "url": "https://cdn.filestackcontent.com/G2CckiqvScC9tsrvHYg4" }],
-            "link": "https://github.com/SirHexxus/slack-bot",
-            "name": "Slack Bot (PoohBot)",
-            "endDate": "2020-01-01"
+            "index": 0,
+            "date": { "month": 6, "year": 2021 },
+            "description": "HTML | MySQL | CSS | Vanilla JS | WordPress\nIn this project, I worked with Left Coast Scales (a mid-sized scale calibrations company in Southern California) to completely retool their homepage. They were having problems making changes and edits to their to keep up with their current growth, and their website was starting to look dated which was hurting both their branding and their lead conversion rate. I changed them over from an older style static page to a WordPress site, which also allowed me to refactor their site to give it a much more modern look and feel which matched their current branding and is helping to increase their lead conversion rates.",
+            "id": "ffb8a4f2-24e6-44ef-bbe7-0593b86d40be",
+            "images": [{ "url": "https://jms-web-media-store.s3.us-west-1.amazonaws.com/Capture_aab656f6d7.PNG" }],
+            "link": "https://www.leftcoastscales.net/",
+            "name": "LCS Homepage Redesign",
+            "endDate": "2020-07-01"
         },
         {
             "index": 1,
@@ -166,6 +191,16 @@
             "link": "https://master.d1x92d5azic2h1.amplifyapp.com/",
             "name": "Handbook 44 Test Point Generator",
             "endDate": "2020-08-01"
+        },
+        {
+            "index": 2,
+            "date": { "month": 1, "year": 2020 },
+            "description": "Node.js | HTML/CSS | Firebase | MongoDB\nWon the February 2020 IESD Hackday\nThis slack bot is a fun/silly way to reward or punish team members! This bot is aimed at building/destroying relationships within teams.",
+            "id": "af4181b1-8955-47fb-8dd9-17c6974335d3",
+            "images": [{ "url": "https://cdn.filestackcontent.com/G2CckiqvScC9tsrvHYg4" }],
+            "link": "https://github.com/SirHexxus/slack-bot",
+            "name": "Slack Bot (PoohBot)",
+            "endDate": "2020-01-01"
         },
         {
             "index": 3,
@@ -180,16 +215,6 @@
             "link": "https://gentle-ocean-82738.herokuapp.com/",
             "name": "Burger CRUD",
             "endDate": "2019-05-01"
-        },
-        {
-            "index": 0,
-            "date": { "month": 6, "year": 2021 },
-            "description": "HTML | MySQL | CSS | Vanilla JS | WordPress\nIn this project, I worked with Left Coast Scales (a mid-sized scale calibrations company in Southern California) to completely retool their homepage. They were having problems making changes and edits to their to keep up with their current growth, and their website was starting to look dated which was hurting both their branding and their lead conversion rate. I changed them over from an older style static page to a WordPress site, which also allowed me to refactor their site to give it a much more modern look and feel which matched their current branding and is helping to increase their lead conversion rates.",
-            "id": "ffb8a4f2-24e6-44ef-bbe7-0593b86d40be",
-            "images": [{ "url": "https://jms-web-media-store.s3.us-west-1.amazonaws.com/Capture_aab656f6d7.PNG" }],
-            "link": "https://www.leftcoastscales.net/",
-            "name": "LCS Homepage Redesign",
-            "endDate": "2020-07-01"
         }
     ],
     "specific": {
@@ -198,12 +223,12 @@
             "personalDescription": "I am a Full-Stack Developer that loves using JavaScript to solve problems"
         },
         "dreamJob": {
-            "locations": [{ "name": "California, USA" }],
-            "remoteFrequency": "regularly"
+            "locations": [{ "name": "California, USA", "id": "2b4af969-ff7a-403b-9193-3824a057f282" }],
+            "remoteFrequency": "regularly",
+            "perks": { "salary": true, "training": true, "perks": true, "challenge": true, "work_hours": true },
+            "salary": "70"
         },
-        "currentJob": {
-            "issues": { "boring_management": true, "boring_team": true, "salary": true }
-        },
+        "currentJob": { "issues": { "boring_management": true, "boring_team": true, "salary": true } },
         "education": { "studiesLevel": 1 },
         "work": {
             "contractTypes": ["permanent", "fixedTerm", "freelance"],
@@ -214,16 +239,11 @@
             "codeExperienceYears": 1,
             "otherExperienceYears": 15
         },
-        "sound": {
-            "embedUrl": "https://open.spotify.com/embed/playlist/37i9dQZF1DWWl7MndYYxge"
-        },
-        "interestedBy": "SaaS Applications, "
+        "sound": { "embedUrl": "" },
+        "interestedBy": "SaaS Applications, PostgreSQL, Next.js"
     },
     "resumeCustomization": {
-        "imageHeader": {
-            "url": "https://cdn.filestackcontent.com/8I2wVnCRTFxypXRYLRsp",
-            "alt": "Default Banner"
-        },
+        "imageHeader": { "url": "https://cdn.filestackcontent.com/8I2wVnCRTFxypXRYLRsp", "alt": "Default Banner" },
         "cardsOrder": [
             { "type": "basics", "variant": 4 },
             { "type": "projects", "variant": 4 },
@@ -232,14 +252,8 @@
             { "type": "experiences", "variant": 4 },
             { "type": "studies", "variant": 4 },
             { "type": "gifs", "variant": 0 },
-            { "type": "interestedBy", "variant": 3 },
-            { "type": "language", "variant": 4 },
-            { "type": "soundtrack", "variant": 4 }
+            { "type": "interestedBy", "variant": 3 }
         ],
-        "fields": {
-            "work": {
-                "customDateFormat": "YYYY"
-            }
-        }
+        "fields": { "work": { "customDateFormat": "YYYY" } }
     }
 }

@@ -61,7 +61,7 @@ const EditLayer = ({ style, classes, url }) => {
 
     return (
         <animated.div className={classes.editLayer} style={style}>
-            <Tooltip title="Supprimer cette image">
+            <Tooltip title="Delete this image">
                 <button className={classes.deleteButton} type="button" onClick={deleteImage}>
                     <DeleteIcon className={classes.deleteIcon} />
                 </button>

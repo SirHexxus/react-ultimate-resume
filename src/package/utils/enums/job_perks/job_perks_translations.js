@@ -21,7 +21,7 @@ export const jobPerksTranslations = defineMessages({
         id: 'Developer.JobPerks.training',
         defaultMessage: 'Training'
     },
-    responsabilities: {
+    responsibilities: {
         id: 'Developer.JobPerks.resopnsabilities',
         defaultMessage: 'Responsibilities'
     },

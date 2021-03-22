@@ -21,6 +21,7 @@
         "version:beta": "npm version prerelease --preid=beta",
         "version:release": "npm version ${VERSION:-patch}"
     },
+    "homepage": "https://SirHexxus.github.io/react-ultimate-resume/",
     "repository": {
         "type": "git",
         "url": "git+https://github.com/welovedevs/react-ultimate-resume.git"
