@@ -205,15 +205,21 @@
         {
             "index": 3,
             "date": { "month": 4, "year": 2019 },
-            "description": "Node.js | Express | Handlebars | MySQL/JawsDB\nA Simple CRUD app to practice interfacing between Node and MySQL without a 3rd Party ORM, also practice with Handlebars.js",
+            "description": "Node.js | Express | Handlebars | Bootstrap | MySQL/JawsDB\nA Simple CRUD app to practice interfacing between Node and MySQL without a 3rd Party ORM, also practice with Handlebars.js",
             "id": "dbe2a8d9-dd9d-443d-8ae4-7a8e0b7939f5",
             "images": [
                 {
-                    "url": "https://jms-web-media-store.s3-us-west-1.amazonaws.com/Screen+Shot+2021-03-22+at+8.20.01+AM.png"
+                    "url": "https://jms-web-media-store.s3-us-west-1.amazonaws.com/Screen+Shot+2021-03-30+at+3.53.18+PM.png"
+                },
+                {
+                    "url": "https://jms-web-media-store.s3-us-west-1.amazonaws.com/Screen+Shot+2021-03-30+at+3.53.37+PM.png"
+                },
+                {
+                    "url": "https://jms-web-media-store.s3-us-west-1.amazonaws.com/Screen+Shot+2021-03-30+at+3.53.49+PM.png"
                 }
             ],
             "link": "https://gentle-ocean-82738.herokuapp.com/",
-            "name": "Burger CRUD",
+            "name": "Customer Tracker CRUD App",
             "endDate": "2019-05-01"
         }
     ],
